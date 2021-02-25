@@ -4,6 +4,10 @@ import java.util.*;
 
 public class Roman {
 
+    Roman(){
+
+    }
+
     private final static TreeMap<Integer, String> myMap = new TreeMap<Integer, String>();
 
     static {
@@ -35,7 +39,8 @@ public class Roman {
 
 
     public static void main(String[] args) {
-        System.out.println(convert(4032));
+        Roman a = new Roman();
+        System.out.println(a.convert(4000));
  
     }
 
